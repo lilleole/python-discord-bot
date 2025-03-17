@@ -17,6 +17,9 @@ async def on_ready():
 
 # Load the Cogs (twitter and youtube commands)
 bot.load_extension('commands')
+bot.load_extension('commands.memes.addToDir')
+bot.load_extension('commands.memes.sendMeme')
+bot.load_extension('commands.memes.shuffle')
 
 #bot.load_extension('commands.twitter_download')
 
